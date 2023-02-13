@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+.home-main-section{
+    background-image: linear-gradient(#9D0E0E00, #4F0707), url("/Images/shutterstock_348320018.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    /* display: none; */
+}
+
+.home-header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    padding-right: 60px;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+.signup{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.home-main-body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    color: #EB2929;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    font-size: 3rem;
+    /* justify-content: center; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    font-weight: bold;
+}
+
+.desc{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 1rem;
+}
+
+
+/*
+if flex-direction: row
+justify-content: works in horizontal direction
+align-items: works in vertical direction
+
+if flex-direction: column
+justify-content: works in vertical direction
+align-items: works in horizontal direction
+
+*/
+
+.search{
+    /* margin-top: 10px; */
+    width: 40%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: space-between;
+    /* height: 45px; */
+}
+
+.input{
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0;
+    outline: 0;
+    font-size: 1rem;
+}
+
+.search > search-city{
+    width: 35%;
+}
+
+.search-rest{
+    width: 61%;
+}
+
+.home-second-section{
+    /* display: flex; */
+    width: 85%;
+    /* background-color: lightcoral; */
+    margin: auto;
+    padding: 1.5rem;
+}
+
+.home-second-section > h1{
+    color: #192F60;
+    /* padding-bottom: 0.5rem; */
+}
+
+.home-second-section > p{
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+    color: #8C96AB;
+}
+
+.list-item{
+    display: flex;
+    background-color: white;
+    width: 30%;
+    height: 160px;
+    /* border: 1px solid black; */
+    box-shadow: 0 3px 10px 2px darkgray; /*x-axis, y-axis, blur, scale*/
+    margin-bottom: 1rem;
+    transition: transform 0.5s;/* Animate on mouse hover */
+}
+.list-item:hover{
+    box-shadow: 0 3px 10px 2px rgb(2, 43, 2);
+    transform: scale(1.05); /*zoom in the element on mouse hover*/
+}
+
+.item-image{
+    /* display: flex; */
+    height: 100%;
+    width: 45%;
+    color: red;
+    overflow: hidden;
+}
+
+.item-image > img{
+    height: 110%;
+    width: 110%;
+    /* justify-content: center;
+    align-items: center; */
+    transform: translateX(-15px);
+}
+
+.item-title{
+    width: 55%;
+    padding: 1rem;
+}
+
+.item-title > p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #192F60;
+    margin-bottom: 8px;
+}
+
+.item-title > span{
+    color: #8C96AB;
+}
+
+.list-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
