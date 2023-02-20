@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.bfast-header{
+    display: flex;
+    /* justify-content: flex-end; */
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    padding-right: 15px;
+    background-color: #CE0505;
+    /* margin: auto; */
+}
+
+.home{
+    display: flex;
+    /* color: #EB2929; */
+    /* background: transparent; */
+    /* background-color: white;  */
+    /* width: 30px;
+    height: 30px; */
+    /* font-size: 3rem; */
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 15px;
+    /* font-weight: bold; */
+    margin-right: 75%;
+    
+}
+
+.logo{
+    background-color: white;
+    color: #EB2929;
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    align-items: center;
+    border: none;
+    margin-left: 20px;
+}
+
+.login-signup{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+    /* margin-left: 10rem; */
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: white;
+    align-items: center;
+}
+
+.signup{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.bfast-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tagline{
+    padding: 20px;
+    font-size: 2rem;
+    color: #192F60;
+    margin-left: 25px;
+    font-weight: bolder;
+}
+
+.filters{
+    width: 20%;
+    height: 600px;
+    background-color: white;
+    margin-left: 45px;
+    padding: 20px;
+    box-shadow: 0 3px 10px 2px darkgray;
+}
+
+.filters > span{
+    color: #192F60;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.filter{
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    color: #192F60;
+}
+
+#location{
+    background: transparent;
+    width: 200px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #8C96AB;
+}
+
+.grey{
+    color: #8C96AB;
+    margin-bottom: 10px;
+}
+
+.cbox{
+    height: 15px;
+    width: 15px;
+    accent-color: #3A5075; /*accent-color is used to change the color of the checkbox when its checked*/
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.bfast-items{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    /* background-color: lightcoral; */
+    margin: auto;
+    height: 620px;
+    justify-content: space-between;
+}
+
+.bfast-item{
+    display: flex;
+    /* flex-direction: column; */
+    width: 95%;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 3px 10px 2px darkgray;
+    margin-bottom: 25px;
+    color: #192F60;
+}
+
+.bfast-item:hover{
+    box-shadow: 0 3px 10px 2px rgb(2, 43, 2);
+    transform: scale(1.02); /*zoom in the element on mouse hover*/
+}
+
+.fulldiv{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: brown; this line should be commented */
+    flex-wrap: wrap;
+}
+
+.image-restname{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    /* background-color: lightblue; this line should be commented */
+}
+
+.item-image{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.item-image > img{
+    width: 120%;
+    height: 120%;
+    transform: translateX(-15px);
+}
+
+.item-title{
+    margin-top: 20px;
+}
+
+.rest-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.addr{
+    font-size: 1rem;
+}
+
+.hline{
+    display: flex;
+    opacity: 2px;
+    color: white;
+    background-color: #192F60;
+    flex-wrap: wrap;
+}
+
+.type-price{
+    height: 40%;
+    /* background-color: blue; */
+    width: 100%;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.rest-type{
+    margin-left: 90px;
+}
+
+.price{
+    margin-left: 40px;
+}
+
+.pages{
+    display: flex;
+    height: 50px;
+    width: 94%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.page{
+    background: transparent;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    color: #8C96AB;
+    border: 1px solid #8C96AB;
+    font-size: 0.8rem;
+}
+
+.page:hover{
+    background-color:#8C96AB;
+    color: white;
+}
+
+.active{
+    background-color:#8C96AB;
+    color: white;
+}

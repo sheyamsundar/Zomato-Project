@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zomato | Breakfast in Mumbai</title>
+        <link rel="stylesheet" href="/breakfast.css">
+    </head>
+    <body>
+        <!-- Page Header -->
+        <header class="bfast-header">
+            <div class="home"><button class="logo">e!</button></div>
+            <div class="login-signup">
+                <button class="btn login">Login</button>
+                <button class="btn signup">Create an account</button>
+            </div>
+        </header>
+        <main>
+        <p class="tagline">Breakfast Places in Mumbai</p>
+        <section class="bfast-list">
+            <article class="filters">
+                <span>Filters</span>
+                <div class="filter location">
+                    <label for="location">Select Location</label>
+                    <div>
+                        <select name="location" id="location" class="loc grey">
+                            <option value="Select Location" class="loc grey">Select Location</option>
+                            <option value="Navi Mumbai" class="loc grey">Navi Mumbai</option>
+                            <option value="Bandra" class="loc grey">Bandra</option>
+                            <option value="Juhu" class="loc grey">Juhu</option>
+                            <option value="Andheri" class="loc grey">Andheri</option>
+                            <option value="Churchgate" class="loc grey">Churchgate</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="filter cuisine">
+                    <label for="cuisine">Cuisine</label>
+                    <div>
+                        <input class="cbox" type="checkbox" name="northindian" id="northindian" value="northindian">
+                        <label class="cbox grey" for="northindian">North Indian</label><br>
+                        <input class="cbox" type="checkbox" name="southindian" id="southindian" value="southindian" checked>
+                        <label class="cbox grey" for="southindian">South Indian</label><br>
+                        <input class="cbox" type="checkbox" name="chinese" id="chinese" value="chinese" checked>
+                        <label class="cbox grey" for="chinese">Chinese</label><br>
+                        <input class="cbox" type="checkbox" name="fastfood" id="fastfood" value="fastfood">
+                        <label class="cbox grey" for="fastfood">Fast Food</label><br>
+                        <input class="cbox" type="checkbox" name="streetfood" id="streetfood" value="streetfood">
+                        <label class="cbox grey" for="streetfood">Street Food</label><br>
+                    </div>
+                </div>
+                <div class="filter costfortwo">
+                    <label for="cost">Cost For two</label>
+                    <div>
+                        <input class="cbox" type="radio" id="lessthan500" name="costf1" value="lessthan500">
+                        <label class="cost grey" for="lessthan500">Less than 500</label><br>
+                        <input class="cbox" type="radio" id="500to1000" name="costf2" value="500to1000">
+                        <label class="cost grey" for="500to1000">` 500 to ` 1000</label><br>
+                        <input class="cbox" type="radio" id="1000to1500" name="costf3" value="1000to1500">
+                        <label class="cost grey" for="1000to1500">` 1000 to ` 1500</label><br>
+                        <input class="cbox" type="radio" id="1500to2000" name="costf4" value="1500to2000">
+                        <label class="cost grey" for="1500to2000">` 1500 to ` 2000</label><br>
+                        <input class="cbox" type="radio" id="2000plus" name="costf5" value="2000plus">
+                        <label class="cost grey" for="2000plus">` 2000+</label><br>
+                    </div>
+                </div>
+                <div class="filter sort">
+                    <label for="sort">Sort</label>
+                    <div>
+                        <input class="cbox" type="radio" id="low-to-high" name="sort1" value="low-to-high">
+                        <label class="sort grey" for="low-to-high">Price low to high</label><br>
+                        <input class="cbox" type="radio" id="high-to-low" name="sort2" value="high-to-low">
+                        <label class="cost grey" for="high-to-low">Price high to low</label><br>
+                    </div>
+                </div>
+            </article>
+            <section class="bfast-items">
+                <article id="bigchill" class="bfast-item">
+                    <div class="fulldiv">
+                        <div class="image-restname">
+                            <span class="item-image">
+                                <img src="/Images/breakfast.png" alt="" />
+                            </span>
+                            <span class="item-title">
+                                <label for="" class="rest-name">The Big Chill Bakery</label><br>
+                                <label class="addr area" for="fort">FORT</label>
+                                <p class="addr grey">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                            </span>
+                        </div>
+                        <div><hr></div>
+                        <div class="type-price">
+                            <span class="item type">
+                            <label class="grey" for="">CUISINES:</label>
+                            <label class="rest-type" for="">Bakery</label>
+                            </span>
+                            <div>
+                                <span class="item range">
+                                    <label class="grey" for="">COST FOR TWO:</label>
+                                    <label class="price" for="">₹700</label>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article id="bigchill" class="bfast-item">
+                    <div class="fulldiv">
+                        <div class="image-restname">
+                            <span class="item-image">
+                                <img src="/Images/breakfast.png" alt="" />
+                            </span>
+                            <span class="item-title">
+                                <label for="" class="rest-name">The Bake Shop</label><br>
+                                <label class="addr area" for="fort">FORT</label>
+                                <p class="addr grey">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                            </span>
+                        </div>
+                        <hr class="hline">
+                        <div class="type-price">
+                            <span class="item type">
+                            <label class="grey" for="">CUISINES:</label>
+                            <label class="rest-type" for="">Bakery</label>
+                            </span>
+                            <div>
+                                <span class="item range">
+                                    <label class="grey" for="">COST FOR TWO:</label>
+                                    <label class="price" for="">₹700</label>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <footer class="pages">
+                    <button class="page" id="previous">&lt;</button>
+                    <button class="page active" id="page1">1</button>
+                    <button class="page" id="page2">2</button>
+                    <button class="page" id="page3">3</button>
+                    <button class="page" id="page4">4</button>
+                    <button class="page" id="page5">5</button>
+                    <button class="page" id="next">&gt;</button>
+                </footer>
+            </section>
+        </section>
+    </main>
+    </body>
+</html>
